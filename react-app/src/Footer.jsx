@@ -39,10 +39,10 @@ function Footer() {
                     <div className="footer-column">
                         <h3>Follow Us</h3>
                         <ul>
-                            <li><a href="#"><i className="fa-brands fa-facebook"></i> Facebook</a></li>
-                            <li><a href="#"><i className="fa-brands fa-twitter"></i> Twitter</a></li>
-                            <li><a href="#"><i className="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-                            <li><a href="#"><i className="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
                         </ul>
                     </div>
                 </div>
