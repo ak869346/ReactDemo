@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 function Contact() {
-    // State to manage form inputs
     const [formData, setFormData] = useState({
       name: '',
       email: '',
@@ -10,19 +9,15 @@ function Contact() {
       message: ''
     });
   
-    // Dummy country codes for example purposes
     const countryCodes = ['+1', '+44', '+91', '+86'];
   
-    // Handler for form input changes
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData({ ...formData, [name]: value });
     };
   
-    // Handler for form submission
     const handleSubmit = (e) => {
       e.preventDefault();
-      // Handle form submission, e.g., send data to an API
       console.log('Form Data:', formData);
     };
   

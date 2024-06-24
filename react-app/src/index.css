@@ -112,7 +112,7 @@ nav a:hover {
 
 .contact-section select:focus {
   outline: none;
-  border-color: #4b0082; /* Dark Purple */
+  border-color: #4b0082; 
 }
 
 .contact-section .dropdown-wrapper {
@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 .contact-section .dropdown-wrapper:after {
-  content: "\f078"; /* Font Awesome down arrow */
+  content: "\f078"; 
   font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   position: absolute;
@@ -128,7 +128,7 @@ nav a:hover {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: #4b0082; /* Dark Purple */
+  color: #4b0082; 
 }
 
 
@@ -276,61 +276,52 @@ footer {
 
 /* Additional CSS */
 
-/* src/ContactSection.css */
-
-/* Style for the form container */
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 1em;
   padding: 1em;
-  background-color: #f9f9f9; /* Optional: to highlight the form area */
-  border-radius: 8px; /* Optional: rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Styling for the labels */
 .contact-form label {
-  color: black; /* Set the label text color to black */
-  font-weight: bold; /* Optional: make the label text bold */
+  color: black; 
+  font-weight: bold; 
   margin-bottom: 0.5em;
 }
 
-/* Styling for input and textarea elements */
 .contact-form input,
 .contact-form textarea {
   padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #fff; /* Set background color to white */
-  color: #333; /* Set text color to dark */
-  width: 100%; /* Make sure the input elements take full width */
+  background-color: #fff; 
+  color: #333; 
+  width: 100%; 
 }
 
-/* Placeholder styling */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #888; /* Set placeholder text color to a light gray */
-  background: transparent; /* Ensure the background is transparent */
+  color: #888; 
+  background: transparent; 
 }
 
-/* Focus state for inputs and textarea */
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: none; /* Remove the default outline */
-  border-color: #555; /* Change border color on focus */
+  outline: none; 
+  border-color: #555; 
 }
 
-/* Styling for the dropdown wrapper */
 .dropdown-wrapper {
   position: relative;
   display: inline-block;
   width: 100%;
 }
 
-/* Styling for select element */
 .contact-form select {
-  width: 100%; /* Ensure select takes the full width */
+  width: 100%; 
   padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -338,7 +329,6 @@ footer {
   color: #333;
 }
 
-/* Styling for the submit button */
 .contact-form button {
   padding: 0.75em;
   background-color: #333;
@@ -346,7 +336,7 @@ footer {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 100%; /* Ensure the button takes full width */
+  width: 100%; 
   margin-top: 1em;
 }
 
@@ -354,7 +344,7 @@ footer {
   background-color: #555;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
   .contact-form {
     padding: 0.5em;
